@@ -4,9 +4,8 @@ import Social from './Social';
 function Footer() {
     return(
         <div className="container mt-5 py-5 text-center">
-            <Social />
-            
-            Daniels is the reason God will find expression
+            <p><Social /></p>
+            @Copyright sacx blog 2020
         </div>
     );
 }
