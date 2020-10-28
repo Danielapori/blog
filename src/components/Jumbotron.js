@@ -6,7 +6,7 @@ function Jumbotron() {
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
                 <h1 className="display-4">SPICY SACX</h1>
-                <p className="lead">Join the best of the best and get the latest fashion blog here at SACX.</p>
+                <p className="lead">Join the best of the best and get the latest, innovative and educating blog here at SACX.</p>
             </div>
             </div>
         </>

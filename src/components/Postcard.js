@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Postcard() {
     return(
@@ -15,7 +16,9 @@ function Postcard() {
                 including education, life expectancy, personality, interests, family life, careers, and political affiliations. Gender inequalit
                 is experienced differently across different cultures</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <Link to="/genderequality">
                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Read More</button>
+                </Link>
             </div>
             </div>
 
@@ -33,7 +36,9 @@ function Postcard() {
                  preserves, nuts or dessert sauces (like pastry cream), iced with buttercream or other icings, and decorated 
                  with marzipan, piped borders, or candied fruit.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <Link to="/cake">
                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Read More</button>
+                </Link>
             </div>
             </div>
 
@@ -49,7 +54,9 @@ function Postcard() {
                 most teams range in size from 2 to 100. Sports teams generally have fixed sizes based upon set rules, and 
                 work teams may change in size depending upon the phase and complexity of the objective.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <Link to="/teamwork">
                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Read More</button>
+                </Link>
             </div>
             </div>
 
@@ -66,7 +73,9 @@ function Postcard() {
                 (pericarp). The botanical definition includes many fruits that are not commonly known or referred to as 
                 berries, such as grapes, tomatoes, cucumbers, eggplants, bananas, and chili peppers. </p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <Link to="/berries">
                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Read More</button>
+                </Link>
             </div>
             </div>
         </div>

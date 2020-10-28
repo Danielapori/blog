@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 import Postcard from './Postcard';
+import Footer from './Footer'
 
 export function Home() {
     return(
@@ -9,6 +10,7 @@ export function Home() {
             <Navbar />
             <Jumbotron />
             <Postcard />
+            <Footer />
         </div>
     );
 

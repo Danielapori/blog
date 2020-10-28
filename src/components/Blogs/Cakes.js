@@ -6,7 +6,12 @@ function Cakes () {
     return (
         <div>
             <Navbar />
-        <div class="card">
+            <div className="jumbotron jumbotron-fluid">
+        <div className="container text-center">
+            <h1 className="display-4">CAKES</h1>
+        </div>
+        </div>
+         <div class="card">
         <div class="card-body container">
        <p>Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. In their oldest 
            forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or 
@@ -31,8 +36,8 @@ function Cakes () {
                 the 1950s, marketers discovered that baking cakes, once a task at which housewives could exercise skill and 
                 creativity, had become dispiriting. This was a period in American ideological history when women, retired from
                 the war-time labor force, were confined to the domestic sphere, while still exposed to the blossoming 
-                consumerism in the US.[9] This inspired psychologist Ernest Dichter to find a solution to the cake mix problem 
-                in the frosting.[10] Since making the cake was so simple, housewives and other in-home cake makers could expend 
+                consumerism in the US. This inspired psychologist Ernest Dichter to find a solution to the cake mix problem 
+                in the frosting. Since making the cake was so simple, housewives and other in-home cake makers could expend 
                 their creative energy on cake decorating inspired by, among other things, photographs in magazines of elaborately 
                 decorated cakes. Ever since cake in a box has become a staple of supermarkets and is complemented with frosting in 
                 a can.</p>

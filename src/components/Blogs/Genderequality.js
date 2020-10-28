@@ -6,6 +6,13 @@ function Genderequality () {
     return (
         <div>
             <Navbar />
+            <div className="jumbotron jumbotron-fluid">
+        <div className="container text-center">
+            <h1 className="display-4">GENDER INEQUALITY</h1>
+        
+        </div>
+        
+        </div>
         <div class="card">
         <div class="card-body container">
        <p>Gender inequality is the idea that men and women are not equal and that gender affects an individual's living 
