@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import Button from './Buttons';
 
 function Cakes () {
     return (
@@ -55,6 +56,7 @@ function Cakes () {
                    fat and eggs than a Victoria sponge cake – and a shortbread base and was proof of the bride-to-be's baking 
                    skills". Traditionally it is a two-layer cake filled and topped with strawberries or raspberries and whipped 
                    cream. </p>
+                <Button />
             <Footer />
           </div>
          </div>

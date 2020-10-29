@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import Button from './Buttons'
 
 function Genderequality () {
     return (
@@ -23,11 +24,11 @@ function Genderequality () {
            affiliations. Gender inequality is experienced differently across different cultures</p>
 
             <p>Natural differences exist between the sexes based on biological and anatomic factors, mostly differing 
-                reproductive roles. Biological differences include chromosomes and hormonal differences.[1] There is a 
+                reproductive roles. Biological differences include chromosomes and hormonal differences.There is a 
                 natural difference also in the relative physical strengths (on average) of the sexes, both in the lower 
                 body and more pronouncedly in the upper-body, though this does not mean that any given man is stronger 
-                than any given woman.[2][3] Men, on average, are taller, which provides both advantages and disadvantages.
-                Women, on average, live significantly longer than men,[5] though it is not clear to what extent this is a 
+                than any given woman. Men, on average, are taller, which provides both advantages and disadvantages.
+                Women, on average, live significantly longer than men, though it is not clear to what extent this is a 
                 biological difference - see Life expectancy. Men have larger lung volumes and more circulating blood cells 
                 and clotting factors, while women have more circulating white blood cells and produce antibodies faster. 
                 Differences such as these are hypothesized to be an adaption allowing for sexual specialization.</p>
@@ -55,6 +56,7 @@ function Genderequality () {
                    on certain paths.This leads to a difference in personality, career paths, or relationships. 
                    Throughout life, males and females are seen as two very different species who have very different 
                    personalities and should stay on separate paths.</p>
+                <Button />
             <Footer /> 
           </div>
          </div>

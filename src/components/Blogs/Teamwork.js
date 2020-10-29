@@ -1,11 +1,17 @@
 import React from 'react';
 import Navbar from '../Navbar';
-import Footer from '../Footer'
+import Footer from '../Footer';
+import Button from './Buttons';
 
 function Teamwork () {
     return (
         <div>
         <Navbar />
+        <div className="jumbotron jumbotron-fluid">
+        <div className="container text-center">
+            <h1 className="display-4">TEAMWORK</h1>
+        </div>
+        </div>
         <div class="card">
         <div class="card-body container">
        <p>Teamwork is the collaborative effort of a group to achieve a common goal or to 
@@ -47,6 +53,7 @@ function Teamwork () {
                    teamwork due to the feeling of shared responsibility and accountability. Team effectiveness and chemistry 
                    may also be linked to personality types. Depending on personality types, teams may be more or less efficient.
                    </p>
+            <Button />
             <Footer />
           </div>
          </div>

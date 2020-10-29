@@ -1,12 +1,18 @@
 import React from 'react';
-import Navbar from '../Navbar'
+import Navbar from '../Navbar';
 import Footer from '../Footer';
+import Button from './Buttons';
 
 function Berries () {
     return (
         <div>
             <Navbar />
-        <div class="card">
+            <div className="jumbotron jumbotron-fluid">
+        <div className="container text-center">
+            <h1 className="display-4">BERRIES</h1>
+        </div>
+        </div>
+        <div >
         <div class="card-body container">
        <p>A berry is a small, pulpy, and often edible fruit. Typically, berries are juicy, rounded, brightly colored, sweet, 
           sour or tart, and do not have a stone or pit, although many pips or seeds may be present. Common examples are 
@@ -43,6 +49,8 @@ function Berries () {
                    from berries include: elderberry wine, strawberry wine, blueberry wine, blackberry wine, redcurrant wine, 
                    huckleberry wine, goji wine and cranberry wine. Berries are used in some styles of beer, particularly 
                    framboise (made with raspberry) and other fruit lambics.</p>
+
+            <Button />
             <Footer />
           </div>
          </div>
