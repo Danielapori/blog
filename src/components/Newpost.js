@@ -8,7 +8,6 @@ function Newpost() {
     const [subTitle, setSubTitle] = useState("");
     const [content, setContent] = useState("")
 
-    
     return (
         <div>
             <Navbar />
@@ -35,7 +34,7 @@ function Newpost() {
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" value={content} onChange={(e) => setContent(e.target.value)}></textarea>
                 </div>
 
-                <button onClick={handleCreateNewPost} class="btn btn-primary">Add Post</button>
+                <button class="btn btn-primary">Add Post</button>
                 </form>
                 <Footer />
      </div>
