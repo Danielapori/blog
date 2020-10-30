@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-import Button from './Buttons'
+import Button from './Buttons';
+import scrollToTop from '../controllers/scroll'
 
 function Genderequality () {
+    scrollToTop();
     return (
         <div>
             <Navbar />

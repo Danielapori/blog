@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { user, logout } from '../controllers/user';
+import { user, logout } from './controllers/user';
 
 function Navbar() {
 
@@ -9,6 +9,7 @@ function Navbar() {
     function handlelogout (e) {
         e.preventDefault();
         logout();
+        setLoggedIn();
         alert("user logged out")
     }
     return(
@@ -31,7 +32,7 @@ function Navbar() {
                     </Link>
 
                 { !user.loggedIn &&
-                    <Link to="/login">
+                    <Link to="/login" onClick={loggedIn}>
                     <li className="nav-item">
                         <a className="nav-link" href="/">Login</a>
                     </li>

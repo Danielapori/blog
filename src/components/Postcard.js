@@ -1,10 +1,13 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 
+
 function Postcard() {
+   
     return(
        <div>
-           <div className="container">
+           <div className="container">       
            <div className="card mb-3 l ">
             <img src={require ('../images/genderequality.png')}   className="card-img-top" alt="..." />
             <div className="card-body">
@@ -20,9 +23,9 @@ function Postcard() {
                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">Read More</button>
                 </Link>
             </div>
-            </div>
+            </div> 
 
-            <div className="card mb-3 l ">
+             <div className="card mb-3 l ">
             <img src={require ('../images/Fridge.jpg')} className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">CAKES</h5>

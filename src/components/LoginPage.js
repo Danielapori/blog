@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron'
 import Footer from './Footer';
-import { login } from '../controllers/user';
+import { login } from './controllers/user';
 import { useHistory } from 'react-router-dom';
 
 function LoginPage () {
@@ -13,7 +13,6 @@ function LoginPage () {
     function handleLogin(e) {
         e.preventDefault();
       if(login(username, password)) {
-        alert("successfully loggedIn")
         history.goBack();
       } else {
           alert("username or password incorrect")
